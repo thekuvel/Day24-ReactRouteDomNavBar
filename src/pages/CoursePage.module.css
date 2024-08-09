@@ -1,0 +1,39 @@
+.container {
+    margin: 50px;
+    padding: 0 50px;
+
+    display: grid;
+    gap: 20px;
+}
+
+.links {
+    text-align: center;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container img{
+    width: 50%;
+    aspect-ratio: 4/2;   
+    
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around; 
+}
+
+@media screen and (max-width:600px){
+    .container{
+        text-align: justify;
+    }
+
+    .container img{
+        width: 100%;
+        aspect-ratio: 4/3;
+    }
+}
